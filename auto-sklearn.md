@@ -4,6 +4,13 @@
 ```
 pip install auto-sklearn
 ```
+- possible fail because of pyrfr, via conda environment
+    - solution:
+```
+conda install swig --yes
+pip install  pyrfr # probably don't need this b/c it reinstalls in auto-sklearn
+pip install auto-sklearn
+```
 ## Manual
 https://automl.github.io/auto-sklearn/master/
 
