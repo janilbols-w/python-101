@@ -1,6 +1,17 @@
 # Auto-sklearn
 
-## installation
+## 1 installation
+https://automl.github.io/auto-sklearn/master/installation.html
+### 1.1Installing auto-sklearn
+Please install all dependencies manually with:
+```
+curl https://raw.githubusercontent.com/automl/auto-sklearn/master/requirements.txt | xargs -n 1 -L 1 pip install
+```
+### 1.2 Anaconda installation
+```
+conda install gxx_linux-64 gcc_linux-64 swig
+```
+### 1.3 install auto-sklearn
 ```
 pip install auto-sklearn
 ```
