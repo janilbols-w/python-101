@@ -22,6 +22,13 @@ conda install swig --yes
 pip install  pyrfr # probably don't need this b/c it reinstalls in auto-sklearn
 pip install auto-sklearn
 ```
+## 1.* Another way to install
+```
+sudo apt get install swig
+pip install pyrfr
+pip install auto-sklearn
+```
+
 ## 2 Manual
 https://automl.github.io/auto-sklearn/master/
 
